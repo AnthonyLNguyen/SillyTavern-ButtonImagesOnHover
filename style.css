@@ -1,5 +1,5 @@
 .hover_img { position:relative; }
-.hover_img img { position:fixed; display:none; z-index:99; margin-left: 50vw; width: 300px;}
+.hover_img img { position:fixed; display:none; z-index:99; max-height: 40vh; max-width: 35vw; left: 100%; top: 0;}
 .hover_img:hover img { display:block; }
 
 .tooltip { outline:none; position: relative}
