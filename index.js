@@ -66,8 +66,8 @@ async function buttonsImageCallback(args, text) {
   }
 }
 
-SlashCommandParser.addCommandObject(SlashCommand.fromProps({ name: 'buttonsImage',
-  name: 'buttonsImage',
+SlashCommandParser.addCommandObject(SlashCommand.fromProps({ name: 'imagebuttons',
+  name: 'imagebuttons',
   callback: buttonsImageCallback,
   aliases: ['buttons-image'],
   returns: 'clicked button label',
